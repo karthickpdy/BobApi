@@ -20,7 +20,11 @@ export default ({ config, db }) => {
 		const params = req.body;
 		console.log('params', params);
 		// if aadhar response is success call bank api to update customer details
-		res.json({ status: 'success' });
+		if (params.OTP === '123123') {
+			res.json({ status: 'error' });
+		} else {
+			res.json({ status: 'success' });
+		}
 	});
 
 
