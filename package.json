@@ -1,7 +1,7 @@
 {
   "name": "bob-api",
   "version": "0.0.1",
-  "engines" : { "node": ">=7.3.0", "npm": ">=3.10.10" },
+  "engines" : { "node": "7.3.0", "npm": "3.10.10" },
   "description": "Starter project for an ES6 RESTful Express API",
   "main": "dist",
   "scripts": {
