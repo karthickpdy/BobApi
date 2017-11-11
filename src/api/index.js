@@ -38,7 +38,7 @@ export default ({ config, db }) => {
 			resolveWithFullResponse: true,
 			json: true,
 			headers: {
-				apikey: process.env.APIKEY
+				apikey: process.env.NPM_CONFIG_APIKEY
 			}
 		}
 		rp(options).then((response) => {
